@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            height: 100vh; /* Ensure the body takes the full height of the viewport */
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 10%;
+            background-color: black;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            font-size: 24px;
+            font-weight: 600;
+            color: #F4E45B;
+            text-decoration: none;
+        }
+
+        .logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li {
+            margin: 0 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #F4E45B;
+            font-size: 16px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+
+        nav a:hover {
+            background-color: #e4f00733; /* Subtle hover effect */
+            color: #ea3d3d;
+        }
+        .container {
+            display: flex;
+            flex-direction: column; /* Stack sections vertically */
+            height: 100vh; /* Full height */
+        }
+
+        .top-section {
+            flex: 1; /* The top section takes up 50% of the page */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #F4E45B;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); /* Add text readability on images */
+        }
+
+        .bottom-section {
+            flex: 1; /* The bottom section takes up the remaining 50% */
+            background-image: url('home.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            
+        }
+
+        .hero-section {
+            text-align: center;
+        }
+
+        .hero-logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .hero-title {
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 1500;
+            align-items: bottom;
+            color: black;
+            margin: 0;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: #000000;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="logo.png" alt="Logo">
+            QR CUISINE
+        </a>
+        <ul class="nav-links">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Sign Up</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <!-- Top section containing the hero content -->
+        <div class="top-section">
+            <section class="hero-section">
+                <img src="logo.png" alt="Logo" class="hero-logo">
+                <h1 class="hero-title">QR CUISINE</h1>
+                <p class="hero-subtitle">Less Fuss, More Flavour</p>
+            </section>
+        </div>
+
+        <!-- Bottom section with background image -->
+        <div class="bottom-section">
+        
+        </div>
+    </div>
+
+</a>
+
+</body>
+</html>
